@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('E:\\Android-MyDemoAppRN.1.2.0.build-231_2.apk', true)
+
+Mobile.tap(findTestObject('P01-Product/btn-burgerMenu'), 0)
+
+Mobile.scrollToText('Log In')
+
+Mobile.tap(findTestObject('P01-Product/btn-BurgerMenu_login'), 0)
+
+Mobile.setText(findTestObject('P02-Login/editText-usernameLogin'), 'bob@example.com', 0)
+
+Mobile.tap(findTestObject('P02-Login/btn-login'), 0)
+
+Mobile.verifyElementText(findTestObject('P02-Login/textView-passwordError'), 'Password is required')
+
+Mobile.closeApplication()
+
