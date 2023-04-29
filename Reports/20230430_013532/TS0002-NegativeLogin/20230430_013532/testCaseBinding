@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/SK01-Login/Negative_Case/TC004-LoginUnregisterUser","testCaseId":"Test Cases/SK01-Login/Negative_Case/TC004-LoginUnregisterUser","iterationVariableName":""}
+{"testCaseName":"Test Cases/SK01-Login/Negative_Case/TC005-LoginWrongPassword","testCaseId":"Test Cases/SK01-Login/Negative_Case/TC005-LoginWrongPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/SK01-Login/Negative_Case/TC006-LoginWrongUsername","testCaseId":"Test Cases/SK01-Login/Negative_Case/TC006-LoginWrongUsername","iterationVariableName":""}
+{"testCaseName":"Test Cases/SK01-Login/Negative_Case/TC007-LoginEmptyFields","testCaseId":"Test Cases/SK01-Login/Negative_Case/TC007-LoginEmptyFields","iterationVariableName":""}
+{"testCaseName":"Test Cases/SK01-Login/Negative_Case/TC008-LoginEmptyUsername","testCaseId":"Test Cases/SK01-Login/Negative_Case/TC008-LoginEmptyUsername","iterationVariableName":""}
+{"testCaseName":"Test Cases/SK01-Login/Negative_Case/TC009-LoginEmptyPassword","testCaseId":"Test Cases/SK01-Login/Negative_Case/TC009-LoginEmptyPassword","iterationVariableName":""}

@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS0002-NegativeLogin,,,,2023-04-30 01:35:43,2023-04-30 01:43:28,"7m - 45,214s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Negative_Case/TC004-LoginUnregisterUser,,,,2023-04-30 01:35:44,2023-04-30 01:37:17,"1m - 33,263s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 01:35:46,2023-04-30 01:36:55,"1m - 9,469s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 01:36:55,2023-04-30 01:36:57,"2,199s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 01:36:57,2023-04-30 01:37:01,"3,686s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 01:37:01,2023-04-30 01:37:02,"1,149s",PASSED
+"setText(findTestObject(""P02-Login/editText-usernameLogin""), ""ali@example.com"", 0)",,,,2023-04-30 01:37:02,2023-04-30 01:37:07,"5,446s",PASSED
+"setEncryptedText(findTestObject(""P02-Login/editText-passwordLogin""), ""tzH6RvlfSTg="", 0)",,,,2023-04-30 01:37:07,2023-04-30 01:37:09,"1,576s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 01:37:09,2023-04-30 01:37:10,"0,900s",PASSED
+"verifyElementText(findTestObject(""P02-Login/textView-warningWrongUser""), ""Provided credentials do not match any user in this service."")",,,,2023-04-30 01:37:10,2023-04-30 01:37:11,"1,350s",PASSED
+closeApplication(),,,,2023-04-30 01:37:11,2023-04-30 01:37:17,"5,997s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Negative_Case/TC005-LoginWrongPassword,,,,2023-04-30 01:37:17,2023-04-30 01:38:31,"1m - 13,534s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 01:37:18,2023-04-30 01:38:12,"53,814s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 01:38:12,2023-04-30 01:38:14,"1,314s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 01:38:14,2023-04-30 01:38:17,"3,354s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 01:38:17,2023-04-30 01:38:18,"1,286s",PASSED
+"setText(findTestObject(""P02-Login/editText-usernameLogin""), ""bob@example.com"", 0)",,,,2023-04-30 01:38:18,2023-04-30 01:38:23,"4,329s",PASSED
+"setEncryptedText(findTestObject(""P02-Login/editText-passwordLogin""), ""tzH6RvlfSTg="", 0)",,,,2023-04-30 01:38:23,2023-04-30 01:38:24,"1,502s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 01:38:24,2023-04-30 01:38:25,"0,850s",PASSED
+"verifyElementText(findTestObject(""P02-Login/textView-warningWrongUser""), ""Provided credentials do not match any user in this service."")",,,,2023-04-30 01:38:25,2023-04-30 01:38:26,"1,457s",PASSED
+closeApplication(),,,,2023-04-30 01:38:26,2023-04-30 01:38:31,"4,485s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Negative_Case/TC006-LoginWrongUsername,,,,2023-04-30 01:38:31,2023-04-30 01:39:47,"1m - 15,907s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 01:38:33,2023-04-30 01:39:28,"55,279s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 01:39:28,2023-04-30 01:39:29,"1,327s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 01:39:29,2023-04-30 01:39:33,"3,442s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 01:39:33,2023-04-30 01:39:34,"1,394s",PASSED
+"setText(findTestObject(""P02-Login/editText-usernameLogin""), ""ali@example.com"", 0)",,,,2023-04-30 01:39:34,2023-04-30 01:39:38,"4,126s",PASSED
+"setEncryptedText(findTestObject(""P02-Login/editText-passwordLogin""), ""dbXIBZ66cuht4KTRMDozZw=="", 0)",,,,2023-04-30 01:39:38,2023-04-30 01:39:40,"1,475s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 01:39:40,2023-04-30 01:39:41,"0,862s",PASSED
+"verifyElementText(findTestObject(""P02-Login/textView-warningWrongUser""), ""Provided credentials do not match any user in this service."")",,,,2023-04-30 01:39:41,2023-04-30 01:39:42,"1,595s",PASSED
+closeApplication(),,,,2023-04-30 01:39:42,2023-04-30 01:39:47,"4,515s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Negative_Case/TC007-LoginEmptyFields,,,,2023-04-30 01:39:47,2023-04-30 01:41:01,"1m - 14,061s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 01:39:49,2023-04-30 01:40:44,"55,497s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 01:40:44,2023-04-30 01:40:46,"1,667s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 01:40:46,2023-04-30 01:40:49,"3,319s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 01:40:49,2023-04-30 01:40:51,"1,410s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 01:40:51,2023-04-30 01:40:54,"3,642s",PASSED
+"verifyElementText(findTestObject(""P02-Login/textView-UsernameError""), ""Username is required"")",,,,2023-04-30 01:40:54,2023-04-30 01:40:56,"1,551s",PASSED
+closeApplication(),,,,2023-04-30 01:40:56,2023-04-30 01:41:01,"4,906s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Negative_Case/TC008-LoginEmptyUsername,,,,2023-04-30 01:41:01,2023-04-30 01:42:14,"1m - 13,401s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 01:41:03,2023-04-30 01:41:56,"53,609s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 01:41:56,2023-04-30 01:41:58,"1,952s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 01:41:58,2023-04-30 01:42:02,"3,518s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 01:42:02,2023-04-30 01:42:03,"1,228s",PASSED
+"setEncryptedText(findTestObject(""P02-Login/editText-passwordLogin""), ""dbXIBZ66cuht4KTRMDozZw=="", 0)",,,,2023-04-30 01:42:03,2023-04-30 01:42:07,"3,982s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 01:42:07,2023-04-30 01:42:08,"0,884s",PASSED
+"verifyElementText(findTestObject(""P02-Login/textView-UsernameError""), ""Username is required"")",,,,2023-04-30 01:42:08,2023-04-30 01:42:10,"1,533s",PASSED
+closeApplication(),,,,2023-04-30 01:42:10,2023-04-30 01:42:14,"4,705s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Negative_Case/TC009-LoginEmptyPassword,,,,2023-04-30 01:42:14,2023-04-30 01:43:28,"1m - 13,967s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 01:42:16,2023-04-30 01:43:10,"54,084s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 01:43:10,2023-04-30 01:43:12,"1,625s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 01:43:12,2023-04-30 01:43:15,"3,314s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 01:43:15,2023-04-30 01:43:17,"1,378s",PASSED
+"setText(findTestObject(""P02-Login/editText-usernameLogin""), ""bob@example.com"", 0)",,,,2023-04-30 01:43:17,2023-04-30 01:43:21,"4,726s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 01:43:21,2023-04-30 01:43:22,"0,961s",PASSED
+"verifyElementText(findTestObject(""P02-Login/textView-passwordError""), ""Password is required"")",,,,2023-04-30 01:43:22,2023-04-30 01:43:24,"1,426s",PASSED
+closeApplication(),,,,2023-04-30 01:43:24,2023-04-30 01:43:28,"4,516s",PASSED
