@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS0001-PositiveLogin,,,,2023-04-30 00:47:38,2023-04-30 00:50:40,"3m - 2,336s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Positive_Case/TC002-LoginRegisterUser,,,,2023-04-30 00:47:39,2023-04-30 00:49:20,"1m - 40,917s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 00:47:41,2023-04-30 00:48:56,"1m - 14,827s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 00:48:56,2023-04-30 00:48:58,"2,415s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 00:48:58,2023-04-30 00:49:02,"3,844s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 00:49:02,2023-04-30 00:49:03,"1,289s",PASSED
+"setText(findTestObject(""P02-Login/editText-usernameLogin""), ""bob@example.com"", 0)",,,,2023-04-30 00:49:03,2023-04-30 00:49:08,"4,492s",PASSED
+"setEncryptedText(findTestObject(""P02-Login/editText-passwordLogin""), ""dbXIBZ66cuht4KTRMDozZw=="", 0)",,,,2023-04-30 00:49:08,2023-04-30 00:49:09,"1,455s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 00:49:09,2023-04-30 00:49:10,"0,968s",PASSED
+"verifyElementText(findTestObject(""P01-Product/textView-titleProductPage""), ""Products"")",,,,2023-04-30 00:49:10,2023-04-30 00:49:13,"2,723s",PASSED
+closeApplication(),,,,2023-04-30 00:49:13,2023-04-30 00:49:20,"7,178s",PASSED
+,,,,,,,
+Test Cases/SK01-Login/Positive_Case/TC003-LoginLockedUser,,,,2023-04-30 00:49:20,2023-04-30 00:50:40,"1m - 20,091s",PASSED
+"startApplication(""E:\Android-MyDemoAppRN.1.2.0.build-231_2.apk"", true)",,,,2023-04-30 00:49:22,2023-04-30 00:50:21,"59,510s",PASSED
+"tap(findTestObject(""P01-Product/btn-burgerMenu""), 0)",,,,2023-04-30 00:50:21,2023-04-30 00:50:23,"1,698s",PASSED
+"scrollToText(""Log In"")",,,,2023-04-30 00:50:23,2023-04-30 00:50:26,"3,397s",PASSED
+"tap(findTestObject(""P01-Product/btn-BurgerMenu_login""), 0)",,,,2023-04-30 00:50:26,2023-04-30 00:50:28,"1,332s",PASSED
+"setText(findTestObject(""P02-Login/editText-usernameLogin""), ""alice@example.com"", 0)",,,,2023-04-30 00:50:28,2023-04-30 00:50:32,"4,245s",PASSED
+"setEncryptedText(findTestObject(""P02-Login/editText-passwordLogin""), ""dbXIBZ66cuht4KTRMDozZw=="", 0)",,,,2023-04-30 00:50:32,2023-04-30 00:50:33,"1,416s",PASSED
+"tap(findTestObject(""P02-Login/btn-login""), 0)",,,,2023-04-30 00:50:33,2023-04-30 00:50:34,"0,959s",PASSED
+"verifyElementText(findTestObject(""P02-Login/textView-lockedUserWarning""), ""Sorry, this user has been locked out."")",,,,2023-04-30 00:50:34,2023-04-30 00:50:36,"1,404s",PASSED
+closeApplication(),,,,2023-04-30 00:50:36,2023-04-30 00:50:40,"4,730s",PASSED
