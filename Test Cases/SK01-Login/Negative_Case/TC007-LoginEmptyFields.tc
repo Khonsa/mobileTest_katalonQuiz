@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007-LoginEmptyFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1bb2977-7001-4e92-a04e-5912cb77969b</testCaseGuid>
+</TestCaseEntity>
